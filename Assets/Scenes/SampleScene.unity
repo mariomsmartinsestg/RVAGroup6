@@ -3561,7 +3561,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_TeleportationProvider: {fileID: 1764814197}
-  m_MatchOrientation: 1
+  m_MatchOrientation: 2
   m_MatchDirectionalInput: 0
   m_TeleportTrigger: 0
   m_FilterSelectionByHitNormal: 0
@@ -3651,7 +3651,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 28.4, y: 1.6, z: -81.77183}
-  m_LocalScale: {x: 2.3435, y: 2.3435, z: 2.3435}
+  m_LocalScale: {x: 3.0685787, y: 3.0685787, z: 3.0685787}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
