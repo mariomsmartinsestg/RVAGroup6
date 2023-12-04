@@ -1669,7 +1669,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -5043,7 +5043,7 @@ PrefabInstance:
       addedObject: {fileID: 1120534921}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: b839fd53a43e21d4c9cecf64943ff895, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1120534928}
+      addedObject: {fileID: 1120534932}
   m_SourcePrefab: {fileID: 100100000, guid: b839fd53a43e21d4c9cecf64943ff895, type: 3}
 --- !u!1 &1120534920 stripped
 GameObject:
@@ -5229,8 +5229,13 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!136 &1120534928
-CapsuleCollider:
+--- !u!4 &1120534931 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: b839fd53a43e21d4c9cecf64943ff895, type: 3}
+  m_PrefabInstance: {fileID: 1120534918}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1120534932
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5246,17 +5251,11 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Radius: 0.14508677
-  m_Height: 0.65619063
-  m_Direction: 1
-  m_Center: {x: 0.0032621995, y: 0.019573182, z: -0.086566135}
---- !u!4 &1120534931 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: b839fd53a43e21d4c9cecf64943ff895, type: 3}
-  m_PrefabInstance: {fileID: 1120534918}
-  m_PrefabAsset: {fileID: 0}
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300004, guid: 102db6f850173954d99b778f5a776fc6, type: 3}
 --- !u!1 &1136535113
 GameObject:
   m_ObjectHideFlags: 0
@@ -9194,11 +9193,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 491553f8c15876841a3444d338a30f74, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -43.4
+      value: 44.9
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 491553f8c15876841a3444d338a30f74, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16
+      value: 5.3
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 491553f8c15876841a3444d338a30f74, type: 3}
       propertyPath: m_LocalPosition.z
