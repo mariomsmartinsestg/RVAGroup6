@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - tronco
+  - perna direita
+  - perna esquerda
+  - braco esquerdo
+  - braco direito
+  - cabeca
   layers:
   - Default
   - TransparentFX
