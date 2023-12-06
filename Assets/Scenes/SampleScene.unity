@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 78289051}
   m_Layer: 0
   m_Name: LeftLegSocket
-  m_TagString: Untagged
+  m_TagString: LeftLeg_Socket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2781,7 +2781,7 @@ GameObject:
   - component: {fileID: 337728210}
   m_Layer: 0
   m_Name: RightArmSocket
-  m_TagString: Untagged
+  m_TagString: RightArm_Socket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2927,7 +2927,7 @@ GameObject:
   - component: {fileID: 352087871}
   m_Layer: 0
   m_Name: HeadSocket
-  m_TagString: Untagged
+  m_TagString: Head_Socket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14079,7 +14079,7 @@ GameObject:
   - component: {fileID: 1929374242}
   m_Layer: 0
   m_Name: LeftArmSocket
-  m_TagString: Untagged
+  m_TagString: LeftArm_Socket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14308,7 +14308,7 @@ GameObject:
   - component: {fileID: 1935180874}
   m_Layer: 0
   m_Name: RightLegSocket
-  m_TagString: Untagged
+  m_TagString: RightLeg_Socket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -12,6 +12,11 @@ TagManager:
   - AFRW_Socket
   - ARLW_Socket
   - ARRW_Socket
+  - LeftLeg_Socket
+  - RightLeg_Socket
+  - LeftArm_Socket
+  - RightArm_Socket
+  - Head_Socket
   layers:
   - Default
   - TransparentFX
