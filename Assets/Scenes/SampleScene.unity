@@ -1060,33 +1060,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8931952130120253195, guid: 0519ca178e52c234981513a3746bff29, type: 3}
   m_PrefabInstance: {fileID: 8970627706467147674}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &174685808
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 41528510}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!154 &174685809
 TerrainCollider:
   m_ObjectHideFlags: 0
@@ -16716,9 +16689,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 422602734}
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8124348107181532593, guid: 0519ca178e52c234981513a3746bff29, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 174685808}
     - targetCorrespondingSourceObject: {fileID: 8124348107181532593, guid: 0519ca178e52c234981513a3746bff29, type: 3}
       insertIndex: -1
       addedObject: {fileID: 174685809}
