@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - TFLW_Socket
+  - TRRW_Socket
+  - TFRW_Socket
+  - TRLW_Socket
+  - AFLW_Socket
+  - AFRW_Socket
+  - ARLW_Socket
+  - ARRW_Socket
   layers:
   - Default
   - TransparentFX

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -772,7 +772,7 @@ GameObject:
   - component: {fileID: 148162933}
   m_Layer: 0
   m_Name: wheel_RL_Socket
-  m_TagString: Untagged
+  m_TagString: ARLW_Socket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -953,7 +953,7 @@ GameObject:
   - component: {fileID: 173067977}
   m_Layer: 0
   m_Name: wheel_FL_Socket
-  m_TagString: Untagged
+  m_TagString: AFLW_Socket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1404,7 +1404,7 @@ GameObject:
   - component: {fileID: 198217142}
   m_Layer: 0
   m_Name: Audi_wheel_FL
-  m_TagString: Untagged
+  m_TagString: AFLW_Socket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1754,7 +1754,7 @@ GameObject:
   - component: {fileID: 217091539}
   m_Layer: 0
   m_Name: Toyotta_Celicca_GT_wheel_RR_19
-  m_TagString: Untagged
+  m_TagString: TRRW_Socket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2223,7 +2223,7 @@ GameObject:
   - component: {fileID: 277588366}
   m_Layer: 0
   m_Name: wheel_FR_Socket
-  m_TagString: Untagged
+  m_TagString: TFRW_Socket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2339,7 +2339,7 @@ GameObject:
   - component: {fileID: 288013147}
   m_Layer: 0
   m_Name: Audi_wheel_FR
-  m_TagString: Untagged
+  m_TagString: AFRW_Socket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5465,7 +5465,7 @@ GameObject:
   - component: {fileID: 722462213}
   m_Layer: 0
   m_Name: Toyotta_Celicca_GT_wheel_FR_19
-  m_TagString: Untagged
+  m_TagString: TFRW_Socket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5700,7 +5700,7 @@ GameObject:
   - component: {fileID: 725185673}
   m_Layer: 0
   m_Name: Audi_wheel_RL
-  m_TagString: Untagged
+  m_TagString: ARLW_Socket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6373,7 +6373,7 @@ GameObject:
   - component: {fileID: 855335606}
   m_Layer: 0
   m_Name: wheel_RR_Socket
-  m_TagString: Untagged
+  m_TagString: TRRW_Socket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6493,7 +6493,7 @@ GameObject:
   - component: {fileID: 879443663}
   m_Layer: 0
   m_Name: wheel_RR_Socket
-  m_TagString: Untagged
+  m_TagString: ARRW_Socket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11182,7 +11182,7 @@ GameObject:
   - component: {fileID: 1563218604}
   m_Layer: 0
   m_Name: wheel_FR_Socket
-  m_TagString: Untagged
+  m_TagString: AFRW_Socket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11297,7 +11297,7 @@ GameObject:
   - component: {fileID: 1582467080}
   m_Layer: 0
   m_Name: wheel_FL_Socket
-  m_TagString: Untagged
+  m_TagString: TFLW_Socket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11449,7 +11449,7 @@ GameObject:
   - component: {fileID: 1619964558}
   m_Layer: 0
   m_Name: Audi_wheel_RR
-  m_TagString: Untagged
+  m_TagString: ARRW_Socket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12985,7 +12985,7 @@ GameObject:
   - component: {fileID: 1799928410}
   m_Layer: 0
   m_Name: Toyotta_Celicca_GT_wheel_FL_19
-  m_TagString: Untagged
+  m_TagString: TFLW_Socket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13386,7 +13386,7 @@ GameObject:
   - component: {fileID: 1845635877}
   m_Layer: 0
   m_Name: wheel_RL_Socket
-  m_TagString: Untagged
+  m_TagString: TRLW_Socket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13678,7 +13678,7 @@ GameObject:
   - component: {fileID: 1855152704}
   m_Layer: 0
   m_Name: Toyotta_Celicca_GT_wheel_RL_19
-  m_TagString: Untagged
+  m_TagString: TRLW_Socket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
