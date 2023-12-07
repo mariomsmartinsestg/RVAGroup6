@@ -6,6 +6,7 @@ public class CheckAttachManequin : MonoBehaviour
 {
 
     public AudioClip errorSound;
+    public AudioClip correctSound;
     private AudioSource audioSource;
 
     // Start is called before the first frame update
@@ -34,6 +35,7 @@ public class CheckAttachManequin : MonoBehaviour
             Debug.Log("Object can attach!");
             Debug.Log(other.tag);
             Debug.Log(gameObject.tag);
+            PlayCorrectSound();
         }
         else
         {
@@ -49,6 +51,14 @@ public class CheckAttachManequin : MonoBehaviour
         if (errorSound != null && audioSource != null)
         {
             audioSource.PlayOneShot(errorSound);
+        }
+    }
+
+    private void PlayCorrectSound()
+    {
+        if (correctSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(correctSound);
         }
     }
 }
