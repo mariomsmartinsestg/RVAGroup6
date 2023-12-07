@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class CheckAttachManequin : MonoBehaviour
 {
+
+    public AudioClip errorSound;
+    private AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,21 +17,34 @@ public class CheckAttachManequin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-   // This method is called when another Collider enters the trigger zone
+    // This method is called when another Collider enters the trigger zone
     private void OnTriggerEnter(Collider other)
     {
-        // Check if the entering object has a specific tag or component
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+        // Check if the entering object has a specific tag
         if (other.CompareTag(gameObject.tag))
         {
-            // The entering object can attach to this object
-            // Do something here, like initiating the attachment process
             Debug.Log("Object can attach!");
-        } else {
-            Debug.Log("NOPE");
+        }
+        else
+        {
+            Debug.Log("NOPE!");
+            PlayErrorSound();
         }
     }
 
+    private void PlayErrorSound()
+    {
+        if (errorSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(errorSound);
+        }
+    }
 }
