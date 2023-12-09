@@ -17,6 +17,8 @@ TagManager:
   - LeftArm_Socket
   - RightArm_Socket
   - Head_Socket
+  - Timer
+  - Instructions
   layers:
   - Default
   - TransparentFX

@@ -1,18 +1,24 @@
+using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
 
-public class TimerCounter : MonoBehaviour
+
+public class Timerexample : MonoBehaviour
 {
+
+    float val;
+    bool srt;
+    public Text disvar;
+
     public TextMeshProUGUI timeText;
     public Button stopButton;
     public Button startButton;
     public Button resetButton;
 
-    private float elapsedTime;
-    private bool isRunning = true; // Flag to track whether the timer is running
+    public float elapsedTime;
+    private bool isRunning = false; // Flag to track whether the timer is running
 
     /// <summary>
     /// Initializes the timer and gets the TextMeshProUGUI reference.
@@ -22,22 +28,18 @@ public class TimerCounter : MonoBehaviour
         // Initialize the timer
         elapsedTime = 0f;
 
-        // Get the reference to TextMeshProUGUI
-        if (timeText == null)
-        {
-            // If TextMeshProUGUI is not explicitly assigned, try to find it in the Canvas
-            Canvas canvas = GetComponentInChildren<Canvas>();
-
-            if (canvas != null)
-                timeText = canvas.GetComponentInChildren<TextMeshProUGUI>();
-        }
+        // Assign the Start button click event
+        if (startButton != null)
+            startButton.onClick.AddListener(startbutton);
 
         // Assign the Stop button click event
         if (stopButton != null)
-            stopButton.onClick.AddListener(StopTimer);
+            stopButton.onClick.AddListener(stopbutton);
 
-        // Update the initial text
-        UpdateTimeText();
+        // Assign the Reset button click event
+        if (resetButton != null)
+            resetButton.onClick.AddListener(resetbutton);
+
     }
 
     /// <summary>
@@ -46,11 +48,12 @@ public class TimerCounter : MonoBehaviour
     void Update()
     {
         // Count the time only if the timer is running
-        if (isRunning)
+        if (isRunning) { 
             elapsedTime += Time.deltaTime;
 
         // Update the text
         UpdateTimeText();
+        }
     }
 
     /// <summary>
@@ -69,13 +72,34 @@ public class TimerCounter : MonoBehaviour
             timeText.text = string.Format("{0:00}:{1:00}:{2:00}:{3:000}", hours, minutes, seconds, milliseconds);
     }
 
-    /// <summary>
-    /// Stops the timer.
-    /// </summary>
-    void StopTimer()
+    public void stopbutton()
     {
         isRunning = false;
+        Debug.Log("stop");
+
     }
+    public void resetbutton()
+    {
+        isRunning = false;
+        elapsedTime = 0;
+        UpdateTimeText();
+        Debug.Log("reset");
 
+    }
+    public void startbutton()
+    {
+        isRunning = true;
+        // Get the reference to TextMeshProUGUI
+        if (timeText == null)
+        {
+            // If TextMeshProUGUI is not explicitly assigned, try to find it in the Canvas
+            Canvas canvas = GetComponentInChildren<Canvas>();
 
+            if (canvas != null)
+                timeText = canvas.GetComponentInChildren<TextMeshProUGUI>();
+        }
+        // Update the initial text
+        UpdateTimeText();
+        Debug.Log("start");
+    }
 }
