@@ -19,6 +19,7 @@ TagManager:
   - Head_Socket
   - Timer
   - Instructions
+  - Table1
   layers:
   - Default
   - TransparentFX

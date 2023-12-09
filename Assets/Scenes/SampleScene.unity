@@ -14559,6 +14559,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Table 2 Obj
       objectReference: {fileID: 0}
+    - target: {fileID: 2528612347677943402, guid: 1f2a61912d14f4c40ab1041682bd23cd, type: 3}
+      propertyPath: m_TagString
+      value: Table1
+      objectReference: {fileID: 0}
     - target: {fileID: 2908409624685378768, guid: 1f2a61912d14f4c40ab1041682bd23cd, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.0026075
