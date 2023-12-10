@@ -33,15 +33,15 @@ public class CheckAttachManequin : MonoBehaviour
         if (other.CompareTag(gameObject.tag))
         {
             Debug.Log("Object can attach!");
-            Debug.Log(other.tag);
-            Debug.Log(gameObject.tag);
+            Debug.Log("Piece" + other.tag);
+            Debug.Log("Obj" + gameObject.tag);
             PlayCorrectSound();
         }
         else
         {
             Debug.Log("NOPE!");
-            Debug.Log(other.tag);
-            Debug.Log(gameObject.tag);
+            Debug.Log("Piece" + other.tag);
+            Debug.Log("Obj" + gameObject.tag);
             PlayErrorSound();
         }
     }
