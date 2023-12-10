@@ -1,7 +1,7 @@
 # RVAGroup6
 # Protótipo de Realidade Virtual para Montagem de Artigos Artesanais
 
-No contexto do Mestrado em Engenharia Informática, na unidade curricular de Realidade Virtual (RV), foi-nos proposto que desenvolvimento de um protótipo de realidade virtual, para a preservação cultural de artigos artesanais, ajudando assim a preservar a identidade da região.
+No contexto do Mestrado em Engenharia Informática, na unidade curricular de Realidade Virtual (RV), foi-nos proposto o desenvolvimento de um protótipo de realidade virtual, para a preservação cultural de artigos artesanais, ajudando assim a preservar a identidade da região.
 
 ## Elementos do grupo
 
