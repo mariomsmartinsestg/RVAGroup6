@@ -5226,7 +5226,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.1
+  m_Radius: 0.07
   m_Height: 0.4
   m_Direction: 1
   m_Center: {x: -0.06052472, y: -0.22239317, z: 0.13794006}
@@ -9437,7 +9437,7 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.1164905
-  m_Height: 0.79767466
+  m_Height: 0.74
   m_Direction: 1
   m_Center: {x: -0.01705769, y: -0.032156214, z: 0.044193402}
 --- !u!4 &1023895118 stripped
@@ -10568,6 +10568,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: b839fd53a43e21d4c9cecf64943ff895, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1120534932}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: b839fd53a43e21d4c9cecf64943ff895, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1120534935}
   m_SourcePrefab: {fileID: 100100000, guid: b839fd53a43e21d4c9cecf64943ff895, type: 3}
 --- !u!1 &1120534920 stripped
 GameObject:
@@ -10775,11 +10778,32 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300004, guid: 102db6f850173954d99b778f5a776fc6, type: 3}
+--- !u!65 &1120534935
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120534920}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.15711029, y: 0.57450837, z: 0.24078402}
+  m_Center: {x: 0.00443417, y: 0.034459908, z: -0.0865685}
 --- !u!1 &1122420378
 GameObject:
   m_ObjectHideFlags: 0
@@ -11234,7 +11258,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.19040413
+  m_Radius: 0.07
   m_Height: 0.5586357
   m_Direction: 1
   m_Center: {x: 0.060522385, y: -0.22097711, z: 0.13652726}
@@ -11914,7 +11938,7 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.116511635
-  m_Height: 0.79751945
+  m_Height: 0.74
   m_Direction: 1
   m_Center: {x: 0.01908606, y: -0.020020053, z: 0.05024428}
 --- !u!4 &1277708895 stripped
@@ -16623,7 +16647,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 0.4480338
+  MinDistance: 0.16341591
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -18250,7 +18274,7 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.09134852
-  m_Height: 0.26201162
+  m_Height: 0.21
   m_Direction: 1
   m_Center: {x: -0.0019543294, y: 0.10420548, z: 0.020187914}
 --- !u!4 &2042696698 stripped
