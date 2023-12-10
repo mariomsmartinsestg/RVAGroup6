@@ -20,6 +20,12 @@ TagManager:
   - Timer
   - Instructions
   - Table1
+  - Building
+  - Pergola
+  - Stairs01
+  - Clothes_Line
+  - Ground
+  - Stairs02
   layers:
   - Default
   - TransparentFX

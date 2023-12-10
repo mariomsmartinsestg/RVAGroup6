@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1076,9 +1076,10 @@ GameObject:
   - component: {fileID: 153960528}
   - component: {fileID: 153960530}
   - component: {fileID: 153960529}
+  - component: {fileID: 153960531}
   m_Layer: 0
   m_Name: socket_ground_pergola
-  m_TagString: Untagged
+  m_TagString: Pergola
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1180,6 +1181,20 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &153960531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153960527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c85f1db95e6a4a5591be4012f71ccc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorSound: {fileID: 8300000, guid: 1ed8fb76fc64e4e46847348138782234, type: 3}
+  correctSound: {fileID: 8300000, guid: c5cb2ac29e89dbf43a9b644caaad45e6, type: 3}
 --- !u!1 &173067975
 GameObject:
   m_ObjectHideFlags: 0
@@ -2224,6 +2239,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4911275979986559593, guid: 4238f15a8c751e042aa4c725d181726b, type: 3}
       propertyPath: m_Name
+      value: Clothes_Line
+      objectReference: {fileID: 0}
+    - target: {fileID: 4911275979986559593, guid: 4238f15a8c751e042aa4c725d181726b, type: 3}
+      propertyPath: m_TagString
       value: Clothes_Line
       objectReference: {fileID: 0}
     - target: {fileID: 5720569707488196819, guid: 4238f15a8c751e042aa4c725d181726b, type: 3}
@@ -4995,9 +5014,10 @@ GameObject:
   - component: {fileID: 597524457}
   - component: {fileID: 597524459}
   - component: {fileID: 597524458}
+  - component: {fileID: 597524460}
   m_Layer: 0
   m_Name: socket_house_stairs02
-  m_TagString: Untagged
+  m_TagString: Stairs02
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5099,6 +5119,20 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &597524460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597524456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c85f1db95e6a4a5591be4012f71ccc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorSound: {fileID: 8300000, guid: 1ed8fb76fc64e4e46847348138782234, type: 3}
+  correctSound: {fileID: 8300000, guid: c5cb2ac29e89dbf43a9b644caaad45e6, type: 3}
 --- !u!4 &605317158 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7510358878747049138, guid: 5266a753d4a31a5488976e396ab4793e, type: 3}
@@ -5836,6 +5870,10 @@ PrefabInstance:
     - target: {fileID: 873856375369108597, guid: 8fd5db4a434e103468c077a1e3a2b949, type: 3}
       propertyPath: m_Name
       value: Stairs_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 873856375369108597, guid: 8fd5db4a434e103468c077a1e3a2b949, type: 3}
+      propertyPath: m_TagString
+      value: Stairs01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7462,6 +7500,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9194979100668110512, guid: 0330e8125ba92b244aef6b51a67355a3, type: 3}
       propertyPath: m_Name
+      value: Pergola
+      objectReference: {fileID: 0}
+    - target: {fileID: 9194979100668110512, guid: 0330e8125ba92b244aef6b51a67355a3, type: 3}
+      propertyPath: m_TagString
       value: Pergola
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -10166,6 +10208,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Middle_East_Building
       objectReference: {fileID: 0}
+    - target: {fileID: 6159968391425933803, guid: e25ea7d2c2352bd4abc465607ae3b400, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 6788976541559921489, guid: e25ea7d2c2352bd4abc465607ae3b400, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.4610951
@@ -10582,6 +10628,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5766142657957708598, guid: 2d62c97a9642b68498fc28b4e6bb516e, type: 3}
       propertyPath: m_Name
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 5766142657957708598, guid: 2d62c97a9642b68498fc28b4e6bb516e, type: 3}
+      propertyPath: m_TagString
       value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6579377108063852940, guid: 2d62c97a9642b68498fc28b4e6bb516e, type: 3}
@@ -13243,9 +13293,10 @@ GameObject:
   - component: {fileID: 1320023726}
   - component: {fileID: 1320023728}
   - component: {fileID: 1320023727}
+  - component: {fileID: 1320023729}
   m_Layer: 0
   m_Name: socket_house_stairs01
-  m_TagString: Untagged
+  m_TagString: Stairs01
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13347,6 +13398,20 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1320023729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320023725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c85f1db95e6a4a5591be4012f71ccc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorSound: {fileID: 8300000, guid: 1ed8fb76fc64e4e46847348138782234, type: 3}
+  correctSound: {fileID: 8300000, guid: c5cb2ac29e89dbf43a9b644caaad45e6, type: 3}
 --- !u!1 &1320538265
 GameObject:
   m_ObjectHideFlags: 0
@@ -13749,6 +13814,10 @@ PrefabInstance:
     - target: {fileID: 6655065061047414373, guid: 72d53ea8703ddae459369eff5619e233, type: 3}
       propertyPath: m_Name
       value: Stairs_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6655065061047414373, guid: 72d53ea8703ddae459369eff5619e233, type: 3}
+      propertyPath: m_TagString
+      value: Stairs02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16654,9 +16723,10 @@ GameObject:
   - component: {fileID: 1832999509}
   - component: {fileID: 1832999511}
   - component: {fileID: 1832999510}
+  - component: {fileID: 1832999512}
   m_Layer: 0
   m_Name: socket_ground_house
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16758,6 +16828,20 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1832999512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832999508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c85f1db95e6a4a5591be4012f71ccc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorSound: {fileID: 8300000, guid: 1ed8fb76fc64e4e46847348138782234, type: 3}
+  correctSound: {fileID: 8300000, guid: c5cb2ac29e89dbf43a9b644caaad45e6, type: 3}
 --- !u!1 &1836186487
 GameObject:
   m_ObjectHideFlags: 0
@@ -17759,9 +17843,10 @@ GameObject:
   - component: {fileID: 1931498571}
   - component: {fileID: 1931498573}
   - component: {fileID: 1931498572}
+  - component: {fileID: 1931498574}
   m_Layer: 0
   m_Name: socket_ground_clothes_line
-  m_TagString: Untagged
+  m_TagString: Clothes_Line
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17863,6 +17948,20 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &1931498574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931498570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c85f1db95e6a4a5591be4012f71ccc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorSound: {fileID: 8300000, guid: 1ed8fb76fc64e4e46847348138782234, type: 3}
+  correctSound: {fileID: 8300000, guid: c5cb2ac29e89dbf43a9b644caaad45e6, type: 3}
 --- !u!1 &1934249891
 GameObject:
   m_ObjectHideFlags: 0
